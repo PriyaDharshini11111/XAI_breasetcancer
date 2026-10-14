@@ -24,7 +24,7 @@ The datasets are public and are **not** redistributed here. Download them from t
 | Name | Source | Notes |
 |---|---|---|
 | BUS (breast ultrasound images) | https://www.kaggle.com/datasets/subhajournal/busi-breast-ultrasound-images-dataset (original data: Al-Dhabyani et al., *Data in Brief* 28:104863, 2020, https://doi.org/10.1016/j.dib.2019.104863) | licence: see the Kaggle page |
-| Mini-DDSM | https://ardisdataset.github.io/MiniDDSM/ | terms: see the project page |
+| Mini-DDSM | https://ardisdataset.github.io/MiniDDSM/ | Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)e |
 | CBIS-DDSM | https://www.cancerimagingarchive.net/collection/cbis-ddsm/ (DOI 10.7937/K9/TCIA.2016.7O02S9CY) | CC BY 3.0 |
 
 Expected layout (`DATA_ROOT` defaults to `./data`, or `/content/drive/MyDrive/breast_datasets` in Colab):
