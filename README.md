@@ -4,7 +4,7 @@ Code for the manuscript *Enhancing Breast Cancer Diagnosis with Explainable AI*:
 (orientation-guided attention Swin Transformer) lesion segmentation, DSORCNN (DenseNet-201 + multi-scale + residual) classification,
 OOA hyper-parameter search, and Grad-CAM / LIME / SHAP explanations.
 
-Archived release: **Zenodo DOI `<add after the first release>`**
+Archived release: **Zenodo DOI ``**
 
 ## Contents
 
