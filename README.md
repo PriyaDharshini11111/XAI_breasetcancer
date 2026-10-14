@@ -56,7 +56,7 @@ Several seeds and all ablation variants: `DATASET=BUS bash run_experiments.sh` (
 
 ## Notes on the protocol
 
-* Image-level stratified 70 / 15 / 15 split, created once and re-used from `splits/`. Patient IDs are not available, so the split is not patient-level; the near-duplicate diagnostic reports hash-identical images across splits.
+* Image-level stratified 70 / 10 / 20 split, created once and re-used from `splits/`. Patient IDs are not available, so the split is not patient-level; the near-duplicate diagnostic reports hash-identical images across splits.
 * TVGCF, OAST, augmentation and all model selection use the training / validation images only; the test images are evaluated once.
 * Swin-T and DenseNet-201 start from ImageNet weights (`timm`, `PRETRAINED=1`). Input size is 224 × 224 for every dataset.
 * The OOA used here is a compact implementation (population 5, 3 iterations, 3 proxy epochs per evaluation; see `results.json → ooa_note`).
